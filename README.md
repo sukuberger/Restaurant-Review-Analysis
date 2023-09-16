@@ -15,9 +15,47 @@ dataset = pd.read_csv('Restaurant_Reviews.tsv',delimiter='\t')
 I will clean the text because there are many unnecessary things, such as punctuation marks. They will increase the size of the words and decrease the algorithm's efficiency.
 
 I will perform Stemming to reduce the word to its word stem and convert each word into lowercase. There might be a chance someone has written a comment in the capital letter, and someone has written the same word in the small letter. In Python, capital and small letters are treated differently, so we must convert similar words into lowercase letters.
-I will perform Tokenization to split the sentences and words from the body of the text.
+I will perform Tokenization to split the sentences and words from the body of the text and create a sparse matrix to get the final output.
+Here are some snapshots of my project.
 
-Then, I will make the back of words via sparse matrix taking all the different words reviewed in the data set without repeating terms.
+MAIN CODE: 
+
+![Screenshot 1](https://github.com/sukuberger/Restaurant-Review-Analysis/assets/109449780/d4a9bb09-7747-4621-8ca2-08018c3385bb)
+
+![Screenshot 2](https://github.com/sukuberger/Restaurant-Review-Analysis/assets/109449780/d5ae965a-73cf-4ab5-9b35-d232cbe69736)
+
+
+![Screenshot 3](https://github.com/sukuberger/Restaurant-Review-Analysis/assets/109449780/4d19f13a-4768-46c0-a81b-64262547be41)
+
+
+![Screenshot 4](https://github.com/sukuberger/Restaurant-Review-Analysis/assets/109449780/163cecf3-6ffc-4b5f-a968-7ba226726d76)
+
+
+
+![Screenshot 5](https://github.com/sukuberger/Restaurant-Review-Analysis/assets/109449780/668fc06d-d2e0-4d06-808e-64ccd9b9d017)
+
+OUTPUT:
+
+
+![Screenshot 6](https://github.com/sukuberger/Restaurant-Review-Analysis/assets/109449780/64edab7d-1588-4778-a52c-19edc121be39)
+
+
+![Screenshot 7](https://github.com/sukuberger/Restaurant-Review-Analysis/assets/109449780/ca686ed4-9593-4695-a8b7-6a8bd16e5ce4)
+
+
+![Screenshot 8](https://github.com/sukuberger/Restaurant-Review-Analysis/assets/109449780/2ba3ee34-c2f9-48a8-b8f6-6e07a40485c6)
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

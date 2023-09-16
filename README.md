@@ -18,7 +18,7 @@ I will perform Stemming to reduce the word to its word stem and convert each wor
 I will perform Tokenization to split the sentences and words from the body of the text.
 
 Then, I will make the back of words via sparse matrix taking all the different words reviewed in the data set without repeating terms.
-Here is Some Screenshots and output of the code.
+
 
 
 
